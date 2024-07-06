@@ -1,0 +1,119 @@
+/* Reset and basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+ ul {
+  list-style-type: none;
+}
+
+ ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1.1rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3 ,auto);
+  gap: 20px;
+}
+
+.service {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.service h3 {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex ; 
+  flex-direction: column ;
+  align-items: start;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}

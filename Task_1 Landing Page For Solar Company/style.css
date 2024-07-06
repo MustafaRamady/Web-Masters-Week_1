@@ -1,0 +1,775 @@
+/* Golbal Rules */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* --------------- */
+/* start header */
+
+header {
+    padding: 16px 80px;
+    background-color: #0B9586;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+header i {
+    display: none !important;
+    font-size: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+header img {
+    width: 124px;
+    height: 44px;
+    color: #0000000F;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li {
+    padding: 8px 18px;
+    margin-right: 8px;
+    transition: 0.2s;
+
+}
+
+header ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+header ul li.active,
+header ul li:hover {
+    border-bottom: 3px solid #0000004D;
+    border-radius: 5px;
+    background-color: #0000000F;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+}
+
+header div h1 {
+    font-size: 18px;
+}
+
+/* end header */
+
+/* start landing1  */
+.landing-1 {
+    padding: 80px 80px;
+    background-image: url(/img/solar-panels-meadow\ 1.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-1 .first {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 81.23px;
+    width: 729px;
+}
+
+.landing-1 .first .line {
+    width: 220.59px;
+    height: 3.75px;
+    background-color: #575757;
+    position: relative;
+}
+
+.landing-1 .first .line::after {
+    content: "";
+    position: absolute;
+    width: 89.01px;
+    height: 3.75px;
+    background-color: #FFFFFF;
+}
+
+.landing-1 .second {
+    width: 729px;
+}
+
+.landing-1 .second h1 {
+    margin-bottom: 24px;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 62.93px;
+}
+
+.landing-1 .second p {
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.one {
+    background-color: #3CAB90;
+    color: #FFFFFF;
+    border-radius: 109px;
+    border: none;
+    margin-right: 10px;
+    padding: 12px 34px;
+
+}
+
+.two {
+    border-radius: 109px;
+    border: none;
+    color: #2A3334;
+    background-color: #FFBB1C;
+    padding: 12px 34px;
+
+}
+
+/* end landing1  */
+
+/* start landing2 */
+.landing-2 {
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 77px;
+}
+
+.landing-2 .text h1 {
+    margin-bottom: 24px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    color: #101828;
+}
+
+.landing-2 .text>p {
+    margin-bottom: 50px;
+    color: #475467;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.landing-2 .text ul li {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.landing-2 .text ul li span {
+    color: #84BD3A;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.landing-2 .text ul li p {
+    color: #101828;
+    font-size: 20px;
+}
+
+.landing-2 img {
+    height: 552px;
+    width: 469px;
+}
+
+/* end landing2 */
+
+/* start landing3 */
+.landing-3 {
+    padding: 80px;
+    background-image: url(./img/8116\ 1.png);
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.landing-3 h1 {
+    margin-bottom: 32px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.landing-3 p {
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 678px;
+}
+
+
+/* end landing3 */
+
+/* start landing 4 */
+.landing-4 {
+    padding: 80px 80px;
+}
+
+.landing-4 .heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.landing-4 .heading h1 {
+    font-size: 42px;
+    color: #101828;
+    margin-bottom: 24px;
+}
+
+.landing-4 .heading p {
+    color: #475467;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.landing-4 .grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.landing-4 .grid img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.landing-4 .grid h2 {
+    font-size: 20px;
+    color: #101828;
+    font-weight: 600;
+    margin-bottom: 24px;
+    padding-left: 20px;
+}
+
+.landing-4 .grid p {
+    margin-bottom: 24px;
+    color: #475467;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.landing-4 .grid a {
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3CAB90;
+}
+
+/* end landing 4 */
+
+/* start landing5 */
+.landing-5 {
+    background-image: url(./img/8116\ 1\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 80px;
+
+}
+
+.landing-5 .text {
+    padding: 44px;
+    background-color: #00000091;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.landing-5 .text h1 {
+    font-size: 42px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.landing-5 .text p {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* end landing5 */
+
+/* start landing6 */
+.landing-6 {
+    padding: 80px;
+    display: flex;
+    gap: 32px;
+}
+
+.landing-6 .first {
+    width: 360px;
+}
+
+.landing-6 .first i {
+    color: #3CAB90;
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+
+.landing-6 .first h2 {
+    font-size: 32px;
+    line-height: 50.83px;
+    color: #101828;
+    margin-bottom: 20px;
+}
+
+.landing-6 .first p {
+    color: #475467;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.landing-6 .second {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 32px;
+}
+
+.landing-6 .card {
+    padding: 24px;
+    border: 1px solid #3CAB90;
+    border-radius: 12px;
+
+}
+
+.landing-6 .card img {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.landing-6 .card h3 {
+    color: #101828;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.landing-6 .card p {
+    font-size: 16px;
+    color: #475467;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.landing-6 .card a {
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #3CAB90;
+}
+
+/* end landing6 */
+/* start landing7 */
+.landing-7 {
+    padding: 80px 80px;
+}
+
+.landing-7 .heading {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.landing-7 .heading h1 {
+    font-size: 42px;
+    color: #101828;
+    margin-bottom: 28px;
+}
+
+.landing-7 .heading p {
+    color: #475467;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.landing-7 .cards {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.landing-7 .cards div {
+    padding: 32px;
+    border: 1px solid #3CAB90;
+    border-radius: 12px;
+    background-color: rgba(60, 171, 144, 0.05);
+}
+
+.landing-7 .cards div i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #0B9586;
+}
+
+.landing-7 .cards div h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #101828;
+    margin-bottom: 20px;
+
+}
+
+.landing-7 .cards div p {
+    color: #475467;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* end landing7 */
+/* start landing8 */
+.landing-8 {
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.landing-8 .first i {
+    margin-bottom: 28px;
+    font-size: 50px;
+    color: #0B9586;
+}
+
+.landing-8 .first h1 {
+    color: #1C1C1C;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.landing-8 .first p {
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #1C1C1C;
+}
+
+.landing-8 .second {
+    background-color: #3CAB900F;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+.landing-8 .second>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.landing-8 .second>div:nth-child(1)>h3 {
+    color: #3CAB90;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.landing-8 .second>div:nth-child(1) .points {
+    display: flex;
+}
+
+.landing-8 .second>div:nth-child(1) p {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin-right: 8px;
+}
+
+.landing-8 .second>div:nth-child(1) .points .active {
+    background-color: #6B6B6B;
+}
+
+.landing-8 .second>p {
+    font-size: 18px;
+    color: #101828;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.landing-8 .second .info {
+    display: flex;
+    gap: 6.5px;
+}
+
+.landing-8 .second .info .details h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 9px;
+    color: #1C1C1C;
+
+}
+
+.landing-8 .second .info .details p {
+    color: #1C1C1C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.landing-8 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+/* end landing8 */
+
+/* start footer  */
+footer {
+    background-color: #283646;
+    padding: 80px 80px;
+}
+
+footer .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 2px solid #71777D;
+    padding-bottom: 54px;
+}
+
+footer .first img {
+    width: 185px;
+    height: 64px;
+    margin-bottom: 38px;
+}
+
+footer .first ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer .first ul li a {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+footer .first div:nth-child(2) p {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+footer .first div:nth-child(2) div {
+    display: flex;
+}
+
+footer .first div:nth-child(2) div input {
+    padding: 5px 20px;
+    border: 1px solid#B3BDC7;
+    border-radius: 38px;
+    color: #92989F;
+    background-color: #B3BDC7;
+}
+
+footer .first div:nth-child(2) div input:focus {
+    outline: none;
+
+}
+
+footer .first div:nth-child(2) div a {
+    color: #FFFFFF;
+    margin-left: -35px;
+}
+
+footer .second {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+footer .second div a {
+    color: #92989F;
+    font-size: 13px;
+    border-right: 1px solid #92989F;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+footer .second p {
+    font-size: 12px;
+    color: #92989F;
+}
+
+/* end footer  */
+
+@media (max-width : 768px) {
+
+    header nav,
+    header div {
+
+        display: none;
+    }
+
+    header i {
+        display: block !important;
+        font-size: 25px;
+    }
+    header {
+        padding: 8px 20px ;
+    }
+
+    .landing-1,
+    .landing-2,
+    .landing-3,
+    .landing-4,
+    .landing-5,
+    .landing-6,
+    .landing-7,
+    .landing-8,
+    footer {
+        padding: 80px 20px;
+    }
+
+    
+.landing-1 .first {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 31.23px;
+    width: 429px;
+}
+
+.landing-1 .first .line {
+    width: 140.59px;
+}
+
+.landing-1 .first .line::after {
+    width: 40%;
+}
+
+.landing-1 .second {
+    width: 329px;
+}
+
+.landing-1 .second h1 {
+    font-size: 42px;
+}
+
+.landing-1 .second p {
+    font-size: 20px;
+}
+
+.landing-1 .second div {
+    display: flex ;
+    flex-direction: column;
+}
+.one , .two {
+
+    width: fit-content;
+    margin-bottom: 10px ;
+}
+.landing-2 {
+    flex-direction: column ;
+}
+.landing-2 img {
+    width: 100% ;
+    height: 500px ;
+}
+.landing-3 {
+    width: 100%;
+}
+.landing-3 h1  , 
+.landing-3 p {
+    width: 350px ;
+}
+.landing-4 .grid {
+    display: grid;
+    grid-template-columns: repeat(1 , auto);
+}
+.landing-6 {
+    flex-direction: column ;
+}
+.landing-6 .second {
+    grid-template-columns: repeat(1 , auto);
+}
+.landing-7 .cards {
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+}
+.landing-8 {
+    flex-direction: column;
+}
+footer .first {
+    flex-direction: column ;
+    align-items: start;
+    gap: 25px ;
+}
+footer .second {
+    flex-direction: column ;
+    justify-content: center;
+    gap: 15px ;
+}
+
+footer .second div a {
+    padding-right: 5px ;
+    margin-right: 5px ;
+}
+footer .first div:nth-child(2) div {
+    flex-direction: column;
+    gap: 15px ;
+}
+footer .first div:nth-child(2) div a {
+    margin-left: 0px;
+}
+footer .first div:nth-child(2) div input {
+    padding:15px 20px;
+}
+
+}
+
+@media (max-width : 380px) {
+    .landing-6 .first {
+        width: 250px ;
+    }
+}
